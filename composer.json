@@ -1,0 +1,34 @@
+{
+    "name": "haqqi/yii2-dry",
+    "description": "DRY (Don't Repeat Yourself) for Yii2 project i usually use.",
+    "license": "Apache License",
+    "authors": [
+        {
+            "name": "MF Haqqi",
+            "email": "me@haqqi.net",
+            "homepage": "http://haqqi.net",
+            "role": "Initiator & Core Developer"
+        }
+    ],
+    "keywords": ["yii2", "library"],
+    "type": "yii2-extension",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0.0",
+        "yiisoft/yii2": ">=2.0.0",
+        "ramsey/uuid": "~3.7",
+        "nesbot/carbon": "^1.27"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "haqqi\\dry\\": "."
+        }
+    }
+}
